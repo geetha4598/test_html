@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Relyance Consent Test Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #1e90ff;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #333;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 40px;
+      text-align: center;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+
+    button {
+      background-color: #1e90ff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0b75d1;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Welcome to the Relyance Consent Test Page</h1>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Home</h2>
+    <p>This is a simple HTML test site to verify the Relyance consent script.</p>
+    <button onclick="alert('Button clicked!')">Click Me</button>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>This page is used to validate script loading and consent banner behavior.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>If you have questions, please reach out to the Relyance Support team.</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Relyance Consent Test Page</p>
+  </footer>
+
+  <!-- ✅ Your Relyance script inserted below -->
+  <script data-relyance-consent-appId="app-d4fd71fb-da36-5c13-9541-ea6762d2f319" data-relyance-zero-fire-mode="true" src="https://consent.app.relyancestage.xyz/relyance-agent.js"> 
+  </script>
+  </script>
+</body>
+</html>
